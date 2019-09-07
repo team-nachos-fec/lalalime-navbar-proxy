@@ -1,0 +1,30 @@
+{
+  "name": "lalalime-navbar-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for lululemon's mock",
+  "main": "/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-nachos-fec/lalalime-navbar-proxy.git"
+  },
+  "keywords": [],
+  "author": "Vivian Quan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-nachos-fec/lalalime-navbar-proxy/issues"
+  },
+  "homepage": "https://github.com/team-nachos-fec/lalalime-navbar-proxy#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2",
+    "request": "^2.88.0"
+  }
+}
